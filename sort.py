@@ -36,7 +36,7 @@ def insertion_sort(seq: list, from_: int, to: int, playlist_id: str):
         print(response.content)
         exit(1)
 
-    sleep(1)
+    sleep(0.5)
     print(f"\033[1;{from_+1}H#\t\033[2;1H({from_+1}/{to})")
     seq = insertion_sort(seq, from_ + 1, to, playlist_id)
     return seq
