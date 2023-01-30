@@ -9,7 +9,7 @@ For the script to work (at all), you need to create your app at https://develope
 
 # Step [1] Download the script
 Download the script and run `pip install -r requirements.txt` to install any missing libraries. Then, you can start the program properly.
-Start it via the command line by either `python main.py` on windows or by `python3 main.py` on any other Unix-like system.
+Start it via the command line by either `python sort.py` on windows or by `python3 sort.py` on any other Unix-like system.
 
 Copy the link to the playlist. The ID, which you need for the program, is located between the first "/" and the last "?"
 (for example, the ID of the playlist "https://open.spotify.com/playlist/56sOJzB9ybdp7yr1XnZL1K?si=98630216bcd546c8" is "56sOJzB9ybdp7yr1XnZL1K")
