@@ -5,7 +5,8 @@ A simple script to sort your Spotify playlists by their track image color
 Download python from www.python.org and install it. If you're a windows user, please make sure to add python to the PATH
 
 # Step [0] Create your spotify app
-For the script to work (at all), you need to create your app at https://developer.spotify.com/dashboard/ . Then, note the client ID and client secret
+For the script to work (at all), you need to create your app at https://developer.spotify.com/dashboard/ . Then, note the client ID and client secret.
+The oauth_token can be found at https://developer.spotify.com/console/put-playlist-tracks/ by clicking on "get token" and then ticking "edit-playlist-public" and "edit-playlist-private". (Hint: The less ticks you leave, the better. This oauth token expires really quick, but it is still the passageway into your account. Avoid the risk and don't add too many scopes)
 
 # Step [1] Download the script
 Download the script and run `pip install -r requirements.txt` to install any missing libraries. Then, you can start the program properly.
