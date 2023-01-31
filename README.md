@@ -13,6 +13,7 @@ Download the script and run `pip install -r requirements.txt` to install any mis
 Start it via the command line by either `python sort.py` on windows or by `python3 sort.py` on any other Unix-like system.
 
 Copy the link to the playlist. The ID, which you need for the program, is located between the first "/" and the last "?"
+
 (for example, the ID of the playlist "https://open.spotify.com/playlist/56sOJzB9ybdp7yr1XnZL1K?si=98630216bcd546c8" is "56sOJzB9ybdp7yr1XnZL1K")
 
 Follow the output on the screen and enjoy
